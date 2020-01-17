@@ -1,0 +1,213 @@
+@font-face{
+    font-family: cooper;
+    src: url(https://kepslok.github.io/ebay/Cooper_Std_Black.ttf);
+}
+#body{
+    text-align: center;
+    background-color: white;
+}
+#container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    overflow: hidden;
+    box-shadow:  0 -250px 100px rgba(0, 0, 0, 0.3);
+}
+h1{
+    font-family: cooper, Verdana, Tahoma;
+    font-weight: bold;
+    font-size: 3em;
+}
+h3{
+    font-style: oblique;
+}
+hr{
+    clear: both;
+    color: dimgrey;
+    margin-top: 60px;
+}
+#zoekertje{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    overflow: hidden;
+}
+#navbar{
+    width: 98%;
+    height: 100px;
+    background-color: white;
+    overflow: hidden;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 15px;
+}
+#navbar > img{
+    max-height: 100%;
+}
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+.bar{
+    /*background-image: url(../images/bar.jpg);*/
+    background-image: repeating-linear-gradient(rgb(255,255,255), rgb(0,154,13));
+    margin-top: 35px;
+    text-align: center;
+    font-family: cooper, Verdana, Tahoma;
+    
+}
+.bar2{
+    /*background-image: url(../images/bar.jpg);*/
+    background-image: repeating-linear-gradient(rgb(255,255,255), rgb(0,154,13));
+    margin-top: 35px;
+    text-align: center;
+    font-family: cooper, Verdana, Tahoma;
+    display: inline-block;
+    width: 50%;
+    
+}
+.bar > p{
+
+    
+}
+#specification{
+    float:right;
+    width: 50%;
+    margin-top: 35px;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#specification > ul > li{
+    margin-top: 12px;
+}
+.afbeelding{
+    /*width: 50%;*/
+    width: 100%;
+}
+.afbeeldingdiv{
+    float: left;
+    width: 50%;
+    
+}
+#mondial_Relay{
+    width:50%;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*font-size: 1.5em;*/
+    font-weight: bold;
+    text-align: left;
+}
+#shipping{
+    float:left;
+    overflow: hidden;
+    width: 50%;
+    text-align: left;
+    clear:left;
+    margin-left: 10px;
+}
+.titel{
+    /*max-height: 100%;*/
+    font-size: 25pt;
+    font-weight: 50;
+    margin-top:1%;
+    margin-bottom: 1%;
+    color: white;
+    display: inline-block;
+}
+.ondertitel{
+    font-size: 1.5em;
+    font-weight: 50;
+    color: white;
+    margin-top:1%;
+    margin-bottom: 1%;
+    color: white;
+    display: inline-block;
+}
+#questions{
+    float:right;
+    width: 50%;
+    text-align: left;
+    clear:left;
+    margin-right: 10px;
+}
+#footer{
+    margin-top: 30px;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 10pt;
+    background-color: #314634;
+    width: 100%;
+    color: white;
+    font-family: cooper, Verdana, Tahoma;
+}
+#footer a{
+    color: white;
+    text-decoration: ;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 33%;
+}
+#footer a:hover{
+    color: white;
+}
+.top{
+    width: 98%;
+    /*background-color: #3b6a41;*/
+    border: 2px solid black;
+    margin-top: 30px;;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+@media (max-width:801px)  {
+    #container{
+        width: 95%;
+    }
+    #afbeelding{
+        display: none;
+    }
+    .afbeeldingdiv{
+        display: none;
+    }
+    #specification{
+        width: 100%;
+        font-size: 1em;
+    }
+    #mondial_Relay{
+        width: 100%;
+        font-size: 1em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    .bar{
+        background-color : rgb(104, 223, 70);
+        text-align: left;
+    }
+    .titel{
+        margin-left: 3px;
+        font-size: 20pt;
+    }
+    #shipping{
+        width: 100%;
+        margin: 0;
+    }
+    #questions{
+        width: 100%;
+        margin: 0;
+    }
+    h1{
+        display: none;
+    }
+}
